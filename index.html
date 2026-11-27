@@ -26,6 +26,49 @@ button{cursor:pointer}button:focus,input:focus,select:focus{outline:3px solid #9
 ul{padding-left:20px}li{margin:6px 0}.checkline{display:flex;gap:10px;align-items:flex-start;margin:9px 0}.checkline input{width:auto;margin-top:5px}
 footer{text-align:center;color:var(--muted);font-size:12px;padding:25px 10px}
 @media(min-width:650px){.wrap{padding-left:20px;padding-right:20px}}
+
+/* Giao diện tối tương phản cao, tham khảo file index.html */
+:root{
+  --navy:#09090b;--blue:#0a84ff;--red:#ff6b6b;
+  --bg:#09090b;--card:#18181b;--ink:#f4f4f5;
+  --muted:#c4c4cc;--line:#52525b;--green:#00d6b2;
+}
+body{background:#09090b!important;color:#f4f4f5!important}
+header{background:#111114!important;color:#fff;padding:13px 14px!important;border-bottom:1px solid #3f3f46;border-radius:0!important}
+.brand{font-size:18px!important;letter-spacing:.8px!important;font-weight:900!important;color:#fff}
+.flag{font-size:30px!important}
+nav{background:#111114!important;border-bottom:1px solid #3f3f46;display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px!important;padding:8px 10px!important}
+nav button{white-space:normal!important;min-height:48px;border:2px solid #52525b!important;background:#27272a!important;color:#fff!important;border-radius:12px!important;padding:8px 4px!important;font-size:13px!important;font-weight:800!important}
+nav button.active{background:#ffb703!important;color:#09090b!important;border-color:#fff!important;box-shadow:0 3px 10px #ffb70335}
+.card,.qcard{background:#18181b!important;color:#f4f4f5!important;border:1px solid #52525b!important;border-radius:15px!important;box-shadow:none!important}
+h2,h3,h4,b,strong{color:#fff}
+h2{font-size:22px}
+.small,.muted,.viet,.ans-vi{color:#c4c4cc!important}
+.stat{background:#27272a!important;border:1px solid #52525b!important;color:#f4f4f5}
+.stat b{color:#00f5d4!important}
+.progress{background:#3f3f46!important}.progress i{background:#00d6b2!important}
+.pill{background:#27272a!important;color:#ffcf58!important}
+.qnum{color:#59b5ff!important}
+.question{color:#fff!important}
+.answer{border-color:#52525b!important}
+.ans-en{color:#8ef0b8!important}
+.btn,button{color:#fff}
+.btn{background:#27272a!important;color:#fff!important;border:2px solid #52525b!important}
+.btn.primary{background:#0a84ff!important;color:#fff!important;border-color:#60a5fa!important}
+input,select{background:#27272a!important;color:#fff!important;border:2px solid #52525b!important}
+input::placeholder{color:#b4b4bc!important}
+.callout{background:#172b3c!important;color:#e6f3ff!important;border-left-color:#0a84ff}
+.callout.warn{background:#332811!important;color:#ffe5a6!important;border-left-color:#ffb703}
+a{color:#70bdff!important}
+footer{color:#a1a1aa!important}
+button:focus,input:focus,select:focus{outline:3px solid #ffb703!important;outline-offset:2px}
+@media(max-width:420px){
+  header{padding:13px 11px!important}
+  .brand{font-size:17px!important;letter-spacing:.55px!important}
+  .flag{font-size:29px!important}
+  nav button{font-size:12px!important;padding:7px 2px!important}
+}
+
 </style></head><body>
 <header><div class="wrap hero"><div class="brand"><span class="flag">🇺🇸</span><span>CẨM NANG ÔN TẬP NHẬP TỊCH</span></div></div></header>
 <main class="wrap">
